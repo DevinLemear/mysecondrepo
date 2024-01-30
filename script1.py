@@ -2,13 +2,13 @@
 # Correc the mistakes and produce the following output:
 # Johnny, the total of your purchase is $1,688.70
 
-def calcTotal(amt,tax,name):
+def calcTotal(amt,tax,myname):
     mytotal = amt * (1+tax)
-    print(f"{myname}, the total of your purchase is ${total:,.2f}")
+    print(f"{myname}, the total of your purchase is ${mytotal:,.2f}")
 
 myname = 'Johnny'
 price = 1,560
-thetax = 8.25%
+thetax = 8.25
 
 calcTotal(thetax,price,name)
 
